@@ -1,0 +1,17 @@
+.monster-detail{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.monster-detail > *{
+    flex: 1 1 auto;
+    margin: 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #95dada;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
